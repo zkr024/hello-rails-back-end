@@ -1,16 +1,12 @@
+# frozen_string_literal: true
+
 module Api
   module V1
     class GreetsController < ApplicationController
       def index
-        @greets = Greet.all
+        @greet = Greet.find(rand(1..5))
 
-        render json: @greets
-      end
-
-      def show
-        @greet = Greet.find(params[:id])
-
-        render json: @greet
+        render json: [@greet]
       end
     end
   end
