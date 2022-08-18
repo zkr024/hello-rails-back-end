@@ -1,4 +1,5 @@
 # hello-react-back-end
+The app holds the data in a database and enables an API to be consumed by the front-end app.
 
 ## Built With:
 
@@ -7,7 +8,9 @@
 - PostgreSql
 
 ## front-end Repo
-[Pull request](https://github.com/zkr024/hello-react-front-end/pull/4)
+[Inavlid Pull request](https://github.com/zkr024/hello-react-front-end/pull/4) "Left the old request since it has the commits history"
+
+[New pull request](https://github.com/zkr024/hello-react-front-end/pull/5)
 
 [Repo](https://github.com/zkr024/hello-react-front-end)
 
